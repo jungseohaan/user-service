@@ -59,7 +59,6 @@ HELP.md
 !**/build/
 **/build/*
 **/dist
-!backend/module-common/build/libs/
 
 # misc
 **.DS_Store
