@@ -11,7 +11,7 @@
 
         <listeners>
             <listener>
-                <class>org.egovframe.cloud.userservice.config.CacheEventLogger</class> <!-- 캐시 이벤트 리스너 -->
+                <class>com.clbee.admin.userservice.config.CacheEventLogger</class> <!-- 캐시 이벤트 리스너 -->
                 <event-firing-mode>ASYNCHRONOUS</event-firing-mode>
                 <event-ordering-mode>UNORDERED</event-ordering-mode>
                 <events-to-fire-on>CREATED</events-to-fire-on>
@@ -34,7 +34,7 @@
 
         <listeners>
             <listener>
-                <class>org.egovframe.cloud.userservice.config.CacheEventLogger</class> <!-- 캐시 이벤트 리스너 -->
+                <class>com.clbee.admin.userservice.config.CacheEventLogger</class> <!-- 캐시 이벤트 리스너 -->
                 <event-firing-mode>ASYNCHRONOUS</event-firing-mode>
                 <event-ordering-mode>UNORDERED</event-ordering-mode>
                 <events-to-fire-on>CREATED</events-to-fire-on>
