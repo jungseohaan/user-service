@@ -33,4 +33,10 @@ public interface GlobalConstant {
             MENUS, MENU, ROLES, USERS, USER,
             AUTHORIZATION_URI, REFRESH_TOKEN_URI, MESSAGES_URI, LOGIN_URI,
             "/actuator/**", "/v3/api-docs/**", "/api/v1/images/**", "/swagger-ui.html", "/webjars/**"};
+
+
+    //예약 신청 후 재고 변경 성공여부 exchange name
+    final String SUCCESS_OR_NOT_EX_NAME = "success-or-not.direct";
+    // 첨부파일 저장 후 entity 정보 update binding name
+    final String ATTACHMENT_ENTITY_BINDING_NAME = "attachmentEntity-out-0";
 }

@@ -1,11 +1,10 @@
 package org.egovframe.cloud.common.service;
 
-//import static org.egovframe.cloud.common.config.GlobalConstant.*;
-//
-//import org.egovframe.cloud.common.dto.AttachmentEntityMessage;
+import static org.egovframe.cloud.common.config.GlobalConstant.*;
+
+import org.egovframe.cloud.common.dto.AttachmentEntityMessage;
 import org.egovframe.cloud.common.util.MessageUtil;
 import org.egovframe.rte.fdl.cmmn.EgovAbstractServiceImpl;
-//import org.springframework.cloud.stream.function.StreamBridge;
 //import org.springframework.messaging.support.MessageBuilder;
 
 import javax.annotation.Resource;
