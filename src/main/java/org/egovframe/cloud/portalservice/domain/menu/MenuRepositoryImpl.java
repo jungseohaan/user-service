@@ -6,7 +6,7 @@ import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.egovframe.cloud.portalservice.api.menu.dto.MenuResponseDto;
 import org.egovframe.cloud.portalservice.api.menu.dto.MenuTreeResponseDto;
-import org.egovframe.cloud.portalservice.domain.board.QBoard;
+import org.egovframe.cloud.boardservice.domain.board.QBoard;
 import org.egovframe.cloud.portalservice.domain.content.QContent;
 import org.egovframe.cloud.userservice.domain.user.QUser;
 
@@ -14,7 +14,7 @@ import java.util.List;
 
 import static com.querydsl.core.types.Projections.constructor;
 import static com.querydsl.core.types.Projections.fields;
-import static org.egovframe.cloud.portalservice.domain.board.QBoard.board;
+import static org.egovframe.cloud.boardservice.domain.board.QBoard.board;
 import static org.egovframe.cloud.portalservice.domain.content.QContent.content;
 import static org.egovframe.cloud.portalservice.domain.menu.QMenu.menu;
 import static org.egovframe.cloud.portalservice.domain.message.QMessage.message;

@@ -11,10 +11,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import java.security.Security;
 
 @ComponentScan({"org.egovframe.cloud.common", "org.egovframe.cloud.servlet", "org.egovframe.cloud.portalservice", "org.egovframe.cloud.userservice",
-        "org.egovframe.cloud.reactive",
-        "org.egovframe.cloud.reservechecksevice", "org.egovframe.cloud.reserverequestservice","org.egovframe.cloud.reserveitemservice"})
+        "org.egovframe.cloud.boardservice" })
 @EntityScan({"org.egovframe.cloud.servlet.domain",
-        "org.egovframe.cloud.portalservice.domain", "org.egovframe.cloud.userservice.domain"})
+        "org.egovframe.cloud.portalservice.domain", "org.egovframe.cloud.userservice.domain", "org.egovframe.cloud.boardservice.domain"})
 @EnableFeignClients
 @SpringBootApplication
 public class UserServiceApplication {

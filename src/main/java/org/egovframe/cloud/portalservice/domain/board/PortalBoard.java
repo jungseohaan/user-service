@@ -26,7 +26,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Board extends BaseEntity {
+public class PortalBoard extends BaseEntity {
 
     /**
      * 게시판 번호
